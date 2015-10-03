@@ -20,11 +20,13 @@ grad = zeros(size(theta));
 % Note: grad should have the same dimensions as theta
 %
 
+% Cost Function :
+J = (1 / m) * (-y * log(theta * X) - (1 - y) * log(1 - theta * X)); 
+
+%
 
 
-
-
-
+% Gradient of the cost :
 
 
 % =============================================================
